@@ -1,2 +1,5 @@
-# velodilna
-A website for bike store and repair shop
+# Velodílna
+
+Bike store for the most demanding.
+
+Bike repair shop in beautiful Slušovice, Czechia.
