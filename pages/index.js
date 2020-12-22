@@ -12,11 +12,12 @@ const Index = () => {
           <div className="relative lg:w-4/6 flex flex-col justify-start items-start">
 
             <div className="relative w-32 h-32">
-              <Link href="/">
+              <Link href="">
                 <a>
                   <Image 
                     src="/assets/images/logo_short.png"
                     layout="fill"
+                    alt="Velodílna"
                     objectFit="contain"
                     />
                 </a>
@@ -62,13 +63,13 @@ const Index = () => {
               </a>
             </h2>
             <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
-              <a href="https://goo.gl/maps/y9jNEhEuinPWT9vw8" target="_blank">
+              <a href="https://goo.gl/maps/y9jNEhEuinPWT9vw8" rel="noopener" target="_blank">
                 Na výpusti 683<br />
                 763 15 Slušovice
               </a>
             </h2>
             <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold font-italic text-secondary dark:text-secondary hover:text-primary transition-colors">
-              <a href="https://cs-cz.facebook.com/pages/category/Local-Business/Velod%C3%ADlna-220182105302107/" target="_blank">
+              <a href="https://cs-cz.facebook.com/pages/category/Local-Business/Velod%C3%ADlna-220182105302107/" rel="noopener" target="_blank">
                 FACEBOOK
               </a>
             </h2>
@@ -78,11 +79,12 @@ const Index = () => {
       </div>
       <footer className="relative w-full pb-16 flex justify-center">
         <div className="relative w-64 h-20">
-          <Link href="/">
+          <Link href="">
             <a>
               <Image 
                 src="/assets/images/logo.png"
                 layout="fill"
+                alt="Velodílna"
                 objectFit="contain"
               />
             </a>
