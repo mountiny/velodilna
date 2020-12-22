@@ -12,11 +12,15 @@ const Index = () => {
           <div className="relative lg:w-4/6 flex flex-col justify-start items-start">
 
             <div className="relative w-32 h-32">
-              <Image 
-                src="/assets/images/logo_short.png"
-                layout="fill"
-                objectFit="contain"
-                />
+              <Link href="/">
+                <a>
+                  <Image 
+                    src="/assets/images/logo_short.png"
+                    layout="fill"
+                    objectFit="contain"
+                    />
+                </a>
+              </Link>
             </div>
 
             <h1 className="block pt-8 leading-normal md:leading-normal text-4xl md:text-5xl uppercase text-left font-bold text-primary dark:text-primary">
@@ -32,10 +36,8 @@ const Index = () => {
 
             
             <p className="block w-full pt-8 lg:pt-16 leading-tight text-2xl font-bold tracking-wider text-white">
-
               Pro objednání servisu a dotazy <a className="font-black text-primary hover:text-secondary transition-colors" href="tel:+420607067476">zavolejte</a>.
             </p>
-
 
           </div>
 

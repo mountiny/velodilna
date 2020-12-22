@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
       <meta name="keywords" content="kola, oprava, bike, opravna, prodejna, servis, velodílna, prodej" />
-      <meta name="author" content="@mountiny" />
+      <meta name="author" content="@vitaHoracek" />
       <meta name="description" content="Prodejna a servis kol ve Slušovicích. Poradíme s volbou nového kola a opravíme cokoliv, co se má točit." />
       <title>Velodílna Slušovice</title>
       <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
@@ -19,6 +19,19 @@ function App({ Component, pageProps }) {
       <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff"></meta>
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="https://velodilna.cz/" />
+      <meta name="twitter:title" content="Velodílna slušovice" />
+      <meta name="twitter:description" content="Prodejna a servis kol ve Slušovicích. Poradíme s volbou nového kola a opravíme cokoliv, co se má točit." />
+      <meta name="twitter:image" content="/assets/images/social_thumb.png" />
+
+      <meta property="og:url" content="https://velodilna.cz/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Velodílna slušovice" />
+      <meta property="og:description" content="Prodejna a servis kol ve Slušovicích. Poradíme s volbou nového kola a opravíme cokoliv, co se má točit." />
+      <meta property="og:image" content="/assets/images/social_thumb.png" />
+
     </Head>
     <Component {...pageProps} />
   </>)
