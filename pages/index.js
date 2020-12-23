@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Index = () => {
   return (
-    <div className="container  font-sans mx-auto px-8 xl:px-16 2xl:px-32">
+    <div className="container mx-auto px-8 xl:px-16 2xl:px-32">
       <div className="py-12 md:pt-20 tracking-wider">
 
         <header className="relative w-full flex flex-col lg:flex-row items-start justify-between">
@@ -71,7 +71,7 @@ const Index = () => {
                 763 15 Slušovice
               </a>
             </h2>
-            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold font-italic text-secondary dark:text-secondary hover:text-primary transition-colors">
+            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold italic text-secondary dark:text-secondary hover:text-primary transition-colors">
               <a href="https://cs-cz.facebook.com/pages/category/Local-Business/Velod%C3%ADlna-220182105302107/" rel="noopener" target="_blank">
                 FACEBOOK
               </a>

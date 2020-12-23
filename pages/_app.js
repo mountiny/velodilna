@@ -20,6 +20,61 @@ function App({ Component, pageProps }) {
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff"></meta>
 
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-BlackItalic.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Black.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Bold.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-BoldItalic.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Italic.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Medium.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Light.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-Regular.woff"
+        as="font"
+        crossOrigin=""
+        />
+      <link
+        rel="preload"
+        href="/assets/fonts/subset-Montserrat-SemiBold.woff"
+        as="font"
+        crossOrigin=""
+        />
+          
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="https://velodilna.cz/" />
       <meta name="twitter:title" content="Velodílna slušovice" />
