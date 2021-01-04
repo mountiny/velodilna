@@ -6,9 +6,7 @@ const Index = () => {
   return (
     <div className="container mx-auto px-8 xl:px-16 2xl:px-32">
       <div className="py-12 md:pt-20 tracking-wider">
-
-        <header className="relative w-full flex flex-col lg:flex-row items-start justify-between">
-
+        <main className="relative w-full flex flex-col lg:flex-row items-start justify-between z-20">
           <div className="relative lg:w-4/6 flex flex-col justify-start items-start">
 
             <div className="relative w-32 h-32">
@@ -40,16 +38,10 @@ const Index = () => {
 
             
             <p className="block w-full pt-8 lg:pt-16 leading-tight text-2xl font-bold tracking-wider text-white">
-              Pro objednání servisu a dotazy <a className="font-black text-primary hover:text-secondary transition-colors" href="tel:+420607067476">zavolejte</a>.
+              Pro objednání servisu a dotazy <a className="font-black text-primary hover:text-secondary" href="tel:+420607067476">zavolejte</a>.
             </p>
 
           </div>
-
-
-
-
-
-
           <div className="flex flex-col justify-end relative">
             <h2 className="block pt-16 lg:pt-8 text-4xl md:text-5xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary">
               po-pá 10-17h
@@ -61,8 +53,8 @@ const Index = () => {
               </a>
             </h2>
             <h2 className="block text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
-              <a href="mailto:info@velodilna.cz">
-                info@velodilna.cz
+              <a href="mailto:marek@velodilna.cz">
+                marek@velodilna.cz
               </a>
             </h2>
             <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
@@ -77,21 +69,21 @@ const Index = () => {
               </a>
             </h2>
           </div>
-        </header>
+        </main>
         
       </div>
       <footer className="relative w-full pb-16 flex justify-center">
-        <div className="relative w-64 h-20">
-          <Link href="">
-            <a>
-              <Image 
-                src="/assets/images/logo.png"
-                layout="fill"
-                alt="Velodílna"
-                objectFit="contain"
-              />
-            </a>
-          </Link>
+        <div className="absolute flex flex-col w-full md:w-4/5 mx-auto -inset-x-1/2 z-0 pb-16 -bottom-52 lg:-bottom-72 xl:-bottom-96">
+          <Image 
+            src="/assets/images/auto.png"
+            width={1400}
+            height={1013}
+            layout="responsive"
+            alt="Velodílna"
+          />
+          <div className="w-full flex pt-8 justify-center text-white text-sm">
+            Vytvořili kluci z&nbsp;<a className="font-semibold hover:text-primary" href="https://www.mountiny.com" target="_blank">Mountiny</a>
+          </div>
         </div>
       </footer>
     </div>

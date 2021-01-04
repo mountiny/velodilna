@@ -102,6 +102,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  @apply transition-colors duration-200;
+}
+
 /* Write your own custom component styles here */
 .btn-blue {
   @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
