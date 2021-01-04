@@ -22,55 +22,55 @@ function App({ Component, pageProps }) {
 
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-BlackItalic.woff"
+        href="/assets/fonts/subset-Montserrat-BlackItalic.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Black.woff"
+        href="/assets/fonts/subset-Montserrat-Black.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Bold.woff"
+        href="/assets/fonts/subset-Montserrat-Bold.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-BoldItalic.woff"
+        href="/assets/fonts/subset-Montserrat-BoldItalic.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Italic.woff"
+        href="/assets/fonts/subset-Montserrat-Italic.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Medium.woff"
+        href="/assets/fonts/subset-Montserrat-Medium.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Light.woff"
+        href="/assets/fonts/subset-Montserrat-Light.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-Regular.woff"
+        href="/assets/fonts/subset-Montserrat-Regular.woff2"
         as="font"
         crossOrigin=""
         />
       <link
         rel="preload"
-        href="/assets/fonts/subset-Montserrat-SemiBold.woff"
+        href="/assets/fonts/subset-Montserrat-SemiBold.woff2"
         as="font"
         crossOrigin=""
         />

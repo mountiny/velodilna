@@ -10,8 +10,8 @@ const Index = () => {
           <div className="relative lg:w-4/6 flex flex-col justify-start items-start">
 
             <div className="relative w-32 h-32">
-              <Link href="">
-                <a>
+              <Link href="/">
+                <a className="block h-full">
                   <Image 
                     src="/assets/images/logo_short.png"
                     layout="fill"
@@ -43,27 +43,27 @@ const Index = () => {
 
           </div>
           <div className="flex flex-col justify-end relative">
-            <h2 className="block pt-16 lg:pt-8 text-4xl md:text-5xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary">
+            <h2 className="block pt-16 lg:pt-8 text-4xl md:text-5xl md:leading-normal text-left lg:text-right font-bold text-secondary">
               po-pá 10-17h
             </h2>
 
-            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
+            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary hover:text-primary transition-colors">
               <a href="tel:+420607067476">
                 +420 607 067 476
               </a>
             </h2>
-            <h2 className="block text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
+            <h2 className="block text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary hover:text-primary transition-colors">
               <a href="mailto:marek@velodilna.cz">
                 marek@velodilna.cz
               </a>
             </h2>
-            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary dark:text-secondary hover:text-primary transition-colors">
+            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary hover:text-primary transition-colors">
               <a href="https://goo.gl/maps/y9jNEhEuinPWT9vw8" rel="noopener" target="_blank">
                 Na výpusti 683<br />
                 763 15 Slušovice
               </a>
             </h2>
-            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold italic text-secondary dark:text-secondary hover:text-primary transition-colors">
+            <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold italic text-secondary hover:text-primary transition-colors">
               <a href="https://cs-cz.facebook.com/pages/category/Local-Business/Velod%C3%ADlna-220182105302107/" rel="noopener" target="_blank">
                 FACEBOOK
               </a>
