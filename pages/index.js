@@ -29,7 +29,7 @@ const Index = () => {
 
             <p className="block w-full pt-8 lg:pt-16 leading-tight text-2xl font-bold tracking-wider text-white">
               Rádi Vám poradíme s&nbsp;nákupem nového kola, nebo opravíme to rozbité! Prodáváme značky 
-              jako <span className="font-black text-primary">KTM</span>, <span className="font-black text-primary">MRX</span> 
+              jako <span className="font-black text-primary">KTM</span>, <span className="font-black text-primary">MRX </span> 
               a&nbsp;mnohé další.
             </p>
             <p className="block w-full pt-8 lg:pt-16 leading-tight text-2xl font-bold tracking-wider text-white">
