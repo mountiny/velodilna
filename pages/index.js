@@ -43,7 +43,7 @@ const Index = () => {
           </div>
           <div className="flex flex-col justify-end relative">
             <h2 className="block pt-16 lg:pt-8 text-4xl md:text-5xl md:leading-normal text-left lg:text-right font-bold text-secondary">
-              po-pá 10-17h
+              po–pá 10–17h
             </h2>
 
             <h2 className="block pt-8 lg:pt-16 text-2xl md:text-3xl md:leading-normal text-left lg:text-right font-bold text-secondary hover:text-primary transition-colors">
