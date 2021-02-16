@@ -87,6 +87,8 @@ function App({ Component, pageProps }) {
       <meta property="og:description" content="Prodejna a servis kol ve Slušovicích. Poradíme s volbou nového kola a opravíme cokoliv, co se má točit." />
       <meta property="og:image" content="/assets/images/social_thumb.png" />
 
+      
+
     </Head>
     <Component {...pageProps} />
   </>)
